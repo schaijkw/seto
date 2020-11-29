@@ -1,3 +1,3 @@
 ---
-permalink: /diensten.html
+permalink: /diensten
 ---
