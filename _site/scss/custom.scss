@@ -1,0 +1,39 @@
+$primary: #007BC2;
+$danger: #DA251C;
+// @import "../node_modules/bootstrap/scss/_functions.scss";
+// @import "../node_modules/bootstrap/scss/_variables.scss";
+
+// $theme-colors: (
+//   primary: $indigo
+// );
+
+
+header img, main .h5  
+{
+    margin: 1.75rem; 
+}
+
+header .h5 
+{
+    margin: auto;
+}
+
+main .h5 {
+    margin-left: 0;
+}
+
+.footer-margin
+{
+    height: 100px;
+}
+
+.pull-left
+{
+    float: left;
+}
+.pull-right
+{
+    float: right;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
