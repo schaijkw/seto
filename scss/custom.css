@@ -1,26 +1,39 @@
 header img, main .h5 {
-  margin: 1.75rem;
-}
+  padding: 1.75rem;
+} 
 
 header .h5 {
   margin: auto;
 }
 
 main .h5 {
-  margin-left: 0;
+  padding-left: 0;
 }
 
-.footer-margin {
-  height: 100px;
+.scrollbar-correction {
+  padding-left: calc(100vw - 100%);
 }
 
-.pull-left {
-  float: left;
+main {
+  height: calc(100vh - 132px);
+  overflow-y: auto;
 }
 
-.pull-right {
-  float: right;
+.footer {
+  height: 52px;
 }
+
+@media (min-width: 768px)
+{
+  main {
+    height: calc(100vh - 245px);
+  }
+
+  .footer {
+    height: 34px;
+  }
+}
+
 
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
